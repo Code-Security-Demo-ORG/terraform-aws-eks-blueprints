@@ -10,14 +10,14 @@ default:
             checkov: true
             checkovModuleDownload: false
             cloudformation: true
-            dockerfile: true
+            dockerfile: false
             exceptions: []
             helm: true
             kubernetes: true
             kustomize: true
             opal: true
             terraform: false
-            terraformPlan: true
+            terraformPlan: false
             tfsec: true
     sca:
         enabled: true
